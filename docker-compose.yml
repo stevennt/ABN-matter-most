@@ -23,8 +23,8 @@ services:
     build:
       context: app
       # uncomment following lines for team edition or change UID/GID
-      # args:
-      #   - edition=team
+      args:
+          - edition=team
       #   - PUID=1000
       #   - PGID=1000
     restart: unless-stopped
